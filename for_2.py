@@ -14,8 +14,13 @@ if __name__ == "__main__":
     # print(strftime('%Y-%m-%d %I:%M:%S %p', tm))
 
     timest.time_strt()
-    for i in range(1,10):
+    i = 10
+    while i > 0:
         for a in list1:
-            print(f"{a=}")
+            print(f"{a=}")  
+        i -= 1  
+    # for i in range(1,10):
+    #     for a in list1:
+    #         print(f"{a=}")
 
     timest.time_end()
