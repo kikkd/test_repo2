@@ -10,5 +10,9 @@ for i in range(1,10):
     print(strftime('%Y-%m-%d %I:%M:%S %p', tm))
     for a in list1:
         print(a)
+<<<<<<< HEAD
+=======
+        
+>>>>>>> v0.2
 tm = localtime()
 print("종료 시간 : "+strftime('%Y-%m-%d %I:%M:%S %p', tm))
