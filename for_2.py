@@ -1,13 +1,12 @@
 from time import localtime, strftime
 
 class timest:
-    def time_st(st):
-        tm = localtime()
-        print(st+strftime('%Y-%m-%d %I:%M:%S %p', tm))
     def time_strt():
-        timest.time_st("시작 시간 : ")
+        tm = localtime()
+        print("시간시간 : "+strftime('%Y-%m-%d %I:%M:%S %p', tm))
     def time_end():
-        timest.time_st("종료 시간 : ")
+        tm = localtime()
+        print("종료시간 :" +strftime('%Y-%m-%d %I:%M:%S %p', tm))
 
 if __name__ == "__main__":
     list1 = ["제주", "제제", "한량"]
@@ -17,6 +16,6 @@ if __name__ == "__main__":
     timest.time_strt()
     for i in range(1,10):
         for a in list1:
-            print(a)
+            print(f"{a=}")
 
     timest.time_end()
