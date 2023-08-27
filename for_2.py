@@ -16,10 +16,22 @@ if __name__ == "__main__":
     timest.time_strt()
     i = 10
     while i > 0:
+        print(i)
+        if i == 5:
+            print("5 멈춤")
+            i -= 1
+            break
+            # continue
         for a in list1:
             print(f"{a=}")  
         i -= 1  
+
     # for i in range(1,10):
+    #     print(i)
+    #     if i == 5:
+    #         print("멈춤")
+    #         # break
+    #         continue
     #     for a in list1:
     #         print(f"{a=}")
 
